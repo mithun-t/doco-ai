@@ -72,7 +72,7 @@ const ChatComponent = () => {
 
   return (
     <div style={{ textAlign: "center", margin: "20px" }}>
-      <h1>Doctor Assistant Chat</h1>
+      <h2>Doctor Assistant Chat</h2>
 
       {/* Patient Visit Entry Form */}
       <div style={{ marginBottom: "20px" }}>
