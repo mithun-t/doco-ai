@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/doco-ai/static/css/main.e6c13ad2.css",
+    "main.js": "/doco-ai/static/js/main.217651c2.js",
+    "static/js/453.ea1c900e.chunk.js": "/doco-ai/static/js/453.ea1c900e.chunk.js",
+    "index.html": "/doco-ai/index.html",
+    "main.e6c13ad2.css.map": "/doco-ai/static/css/main.e6c13ad2.css.map",
+    "main.217651c2.js.map": "/doco-ai/static/js/main.217651c2.js.map",
+    "453.ea1c900e.chunk.js.map": "/doco-ai/static/js/453.ea1c900e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.217651c2.js"
+  ]
+}
