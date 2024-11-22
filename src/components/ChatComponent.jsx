@@ -37,27 +37,6 @@ const ChatComponent = () => {
     setLoading(true);
     setError("");
 
-    const options = {
-      method: "POST",
-      url: "https://chatgpt-42.p.rapidapi.com/conversationllama3",
-      headers: {
-        "x-rapidapi-key": "8b3794ddb1msh97fb1a307bd5b83p1c2625jsn58f5c00c04d3",
-        "x-rapidapi-host": "chatgpt-42.p.rapidapi.com",
-        "Content-Type": "application/json",
-      },
-      data: {
-        messages: [
-          {
-            role: "user",
-            content: `Based on the patient data: ${JSON.stringify(
-              patientVisits
-            )}, ${message}`,
-          },
-        ],
-        web_access: false,
-      },
-    };
-
     try {
       const response = await axios.request(options);
       console.log(response);
